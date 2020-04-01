@@ -1,0 +1,41 @@
+.branch-container {
+    display: flex;
+    padding: 20px 0;
+  }
+  
+  .quote-bloc {
+    flex: 1;
+    color: #00b39b;
+  }
+  
+  .branch-bloc {
+    flex: 4;
+  }
+  
+  .branch-bloc {
+    list-style-type:none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .branch-bloc li {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .branch-bloc a {
+    display: block;
+    margin: 0 10px;
+  }
+  
+  .branch-bloc svg {
+    display: flex;
+    max-height: 20px;
+    width: auto;
+    margin: 10px 0;
+    color: #D0D0D0;
+  }
+  
+  .branch-bloc svg:hover {
+    color: #00b39b;
+  }

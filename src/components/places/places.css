@@ -1,0 +1,63 @@
+.place-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+  }
+  
+  .place-container .title-bloc {
+    width: 50%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .place-container .title-bloc h2 {
+    color: #00b39b;
+    line-height: 1.5;
+  }
+  
+  .place-container .title-bloc p {
+    color: #747474;
+    line-height: 1.5;
+    font-size: 14px;
+  }
+  
+  .place-container .place-card-bloc {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .place-container .place-card {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+    margin: 14px;
+    cursor: pointer;
+  }
+  
+  .place-container .place-card:hover {
+    box-shadow: 0 20px 50px 0 rgba(0,0,0,.13);
+    transition: 0.3s ease-in-out;
+  }
+  
+  .place-container .card-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: #747474;
+  }
+  
+  .place-container .card-content button {
+    background-color: #3D83DF;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin: auto 0;
+    transition: 0.3s ease-in-out;
+  }
+  .place-container .card-content button:hover {
+    background-color: #1662c6;
+    transition: 0.3s ease-in-out;
+  }

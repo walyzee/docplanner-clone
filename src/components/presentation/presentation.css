@@ -1,0 +1,83 @@
+/* --------Goal-------- */
+
+.goal-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.goal-icon{
+  padding: 20px 0;
+}
+
+.goal-text {
+  display: flex;
+  color: #747474;
+  line-height: 1.7;
+}
+
+.goal-text .text-bloc {
+  padding: 20px;
+}
+
+/* --------Packages-------- */
+
+.package-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.patients-bloc, .doctors-bloc {
+  border-radius: 10px;
+  width: 100%;
+  color: #ffffff;
+}
+
+.patients-bloc {
+  margin-right: 10px;
+  background-color: #00CCB1;
+}
+
+.doctors-bloc {
+  margin-left: 10px;
+  background-color: #3D83DF;
+}
+
+.patients-bloc, .doctors-bloc {
+    padding: 20px 40px;
+    min-height: 350px;
+    overflow: hidden;
+    position: relative;
+}
+
+.content h6 {
+  margin: 0;
+  opacity: 0.8;
+}
+
+.content img {
+  position: absolute;
+  width: 400px;
+  bottom: 0;
+  right: -100px;
+}
+
+.content .selectbox {
+  background-color: #ffffff;
+  border:1px solid  white;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.content .selectbox:hover {
+  background: hsla(0,0%,100%,.9);
+    color: #333;
+}
+
+.content .selectbox:focus {
+  outline: none;
+}
